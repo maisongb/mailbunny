@@ -1,0 +1,277 @@
+/***************FONTS****************/
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-reg-webfont.eot');
+    src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('../fonts/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('../fonts/lato-regita-webfont.eot');
+    src: url('../fonts/lato-regita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regita-webfont.woff') format('woff'),
+         url('../fonts/lato-regita-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regita-webfont.svg#latoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+/***************END FONTS****************/
+
+
+*, h1, h2, h3, h4, h5, h6, p {
+
+	font-family: 'latoregular';
+	font-size: 1em;
+
+}
+
+body {
+
+	background-color: Ivory  ; 
+}
+
+
+.small.radius.button {
+
+	vertical-align: bottom;
+	position: relative;
+	background-color: #6BB4BB;
+
+	padding: 16px;
+	font-size: 20px;
+	width: 100% !important;
+
+}
+
+.small.radius.button:hover {
+
+		background-color: #418387;
+
+}
+
+.panel {
+
+	margin-top: 40px;
+	background-color: #F4ECDF;
+	background-color: Linen   ;
+	border: none;
+	padding-left: 20px;
+}
+
+.panel h5 {
+
+	color: #937E65;
+	font-family: 'latoitalic';
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+}
+
+input {
+
+	padding: 20px;
+}
+
+
+label {
+
+padding-left: 20px;
+padding-top: 20px;
+
+}
+
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+
+color: #418387;
+padding: 30px 20px;
+
+
+	}
+
+
+input[placeholder] {
+
+	font-size: 26px;
+	background-color: rgba(255,255,255,0.7);
+	border:none;
+	color: #418387;
+}	
+
+
+
+
+
+.slider-disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.slider-h {
+  height: 22px;
+}
+.slider-v {
+  width: 22px;
+}
+.slider-inner {
+  position: relative;
+  height: 6px;
+  top: 7px;
+
+}
+.slider-handle {
+  position: absolute;
+  display: block;
+  outline: none;
+  width: 60px;
+  height: 40px;
+  top: -12px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.slider-tip {
+  position: absolute;
+  display: inline-block;
+  line-height: 12px;
+  font-size: 12px;
+  white-space: nowrap;
+  top: -22px;
+}
+
+.slider-rulelabel {
+  position: relative;
+}
+.slider-rulelabel span {
+  position: absolute;
+  display: inline-block;
+  font-size: 12px;
+}
+.slider-v .slider-inner {
+  width: 6px;
+  left: 7px;
+  top: 0;
+  float: left;
+}
+.slider-v .slider-handle {
+  left: 3px;
+  margin-top: -10px;
+}
+.slider-v .slider-tip {
+  left: -10px;
+  margin-top: -6px;
+  right:10px;
+}
+.slider-v .slider-rule {
+  float: left;
+  top: 0;
+  left: 16px;
+  right:16px;
+}
+.slider-v .slider-rule span {
+  width: 5px;
+  height: 'auto';
+  border-left: 0;
+  border-style: solid;
+}
+.slider-v .slider-rulelabel {
+  float: left;
+  top: 0;
+  left: 23px;
+}
+.slider-handle {
+  background: url('../img/slider_handle.png') no-repeat;
+}
+.slider-inner {
+background-color: rgba(255,255,255,0.7) !important;
+}
+
+.slider-rulelabel span {
+  color: #937E65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-inner {
+
+border-color: none !important;
+	background-color: rgba(255,255,255,0.7) !important;
+	position: relative;
+height: 20px;
+
+}
+
+input[.easyui-slider] {
+
+	margin-bottom: 200px;
+	padding-bottom: 200px;
+}
+
+
+.slider-handle {
+position: absolute;
+display: block;
+outline: none;
+
+}
+
+.message-heading {
+
+	margin-top: 40px;
+	padding-left: 4px;
+}
+
+
+.message p {
+	
+
+	font-family: 'latoitalic';
+	background-color: rgba(255,255,255,0.7) !important;
+	color: #418387;
+	padding: 2em;
+}
+
+
+
+
+
+.letter {
+
+	margin-bottom: 3em;
+}
+
+span {
+
+	padding-left: 6px;
+	color: #937E65;
+}
+
+
+
+

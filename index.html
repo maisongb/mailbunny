@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mailbunny | get your identity</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+
+<!--
+     <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/demo/demo.css">
+
+    -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+        <link rel="stylesheet" href="css/bunny.css" />
+
+  </head>
+  <body>
+    
+
+<!-- verify the email address -->
+
+    <div class="row">
+      <div class="large-8 large-centered medium-12 small-12 columns">
+            <div class="panel">
+              <div class="row">
+                  <h5>Verify an email address</h5>
+                  <div class="large-9 medium-12 small-12 columns">
+                        <input type="text" placeholder="username@mail.com" />
+                  </div>
+                  <div class="large-3 medium-12 small-12 columns">
+                    <a href="#" class="small radius button">VERIFY</a><br/>
+                  </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+<!-- letter of interest -->
+       
+    <div class="row letter">
+      <div class="large-8 large-centered medium-12 small-12 columns">
+            <div class="panel">  
+              <div class="row">
+              <h5>Letter of Interest</h5>
+                 <label>From</label>
+                  <div class="large-9 medium-12 small-12 columns">
+                        <input type="text" placeholder="mycurrentmail@mail.com" />
+                  </div>
+              </div>
+              <div class="row">
+                  <label>To</label>
+                  <div class="large-9 medium-12 small-12 columns">
+                     <input type="text" placeholder="username@mail.com" />
+                  </div>
+              </div>
+                  <div class="row">
+                      <label>How much are you up to?</label>
+                              <div class="large-8 medium-12 small-12 columns much">
+                                    
+                                    <input class="easyui-slider" data-options="
+                                          showTip: false,
+                                          rule: [0,'|',50,'|',100],
+                                          tipFormatter: function(value){
+                                            return value+'px';
+                                          },
+                                          onChange: function(value){
+                                            $('#ff').css('font-size', value);
+                                          }">
+                                             
+                              </div>
+                    
+                  </div>
+
+ <!-- begin message-->
+
+              <div class="row">
+                  
+                  <div class="large-11 medium-11 small-12 columns">
+                  <label class="message-heading">Message</label>
+                             <div class="message">
+
+                               
+                                                   <p>Hello,<br>
+                            I would like to know if you still need your email address. I may be able to give you an offer as well.
+
+                            Please do get in touch if interested.
+                            <br><br>
+                            Regards,<br>
+                            mycurrentmail@mail.com</p>
+            
+
+
+                             </div>
+                  </div>
+              </div>
+
+              <div class="row">
+
+    <div class="large-6 small-12 columns">
+      <input id="checkbox1" type="checkbox"><span>I want a reading notice</span>
+    </div>
+
+              </div>
+<div class="row">
+
+                <div class="large-offset-7 large-3 medium-12 small-12 columns">
+                    <a href="#" class="small radius button">send</a><br/>
+                  </div>
+</div>
+
+
+            </div>
+      </div>
+    </div>
+       
+
+<!-- there's a lot of dumb code...sorry for that-->
+
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
