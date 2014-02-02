@@ -273,5 +273,12 @@ span {
 }
 
 
+.to p {
 
+  background-color: rgba(255,255,255,0.7) !important;
+  color: #418387;
+  padding: 20px;
+  font-size: 26px;
+
+}
 
