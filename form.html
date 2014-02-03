@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <body>
+    <div id="letter-form" class="row letter">
+      <div class="large-8 large-centered medium-12 small-12 columns">
+            <div class="panel">  
+              <div class="row">
+              <h5>Letter of Interest</h5>
+                 <label>From</label>
+                  <div class="large-9 medium-12 small-12 columns">
+                        <input type="text" placeholder="mycurrentmail@mail.com" />
+                  </div>
+              </div>
+              <div class="row">
+                  <label>To</label>
+                  <div class="large-9 medium-12 small-12 columns to">
+                   <!--  <input type="text" placeholder="username@mail.com" /> -->
+                    <p>username@mail.com</p>
+                  
+                  </div>
+              </div>
+                  <div class="row">
+                      <label>How much are you up to?</label>
+                              <div class="large-8 medium-12 small-12 columns much">
+                                    
+                                    <input class="easyui-slider" data-options="
+                                          showTip: false,
+                                          rule: [0,'|',50,'|',100],
+                                          tipFormatter: function(value){
+                                            return value+'px';
+                                          },
+                                          onChange: function(value){
+                                            $('#ff').css('font-size', value);
+                                          }">
+                                             
+                              </div>
+                    
+                  </div>
+
+ <!-- begin message-->
+
+              <div class="row">
+                  
+                  <div class="large-11 medium-11 small-12 columns">
+                  <label class="message-heading">Message</label>
+                             <div class="message">
+
+                               
+                                                   <p>Hello,<br>
+                            I would like to know if you still need your email address. I may be able to give you an offer as well.
+
+                            Please do get in touch if interested.
+                            <br><br>
+                            Regards,<br>
+                            mycurrentmail@mail.com</p>
+            
+
+
+                             </div>
+                  </div>
+              </div>
+
+              <div class="row">
+
+    <div class="large-6 small-12 columns">
+      <input id="checkbox1" type="checkbox"><span>I want a reading notice</span>
+    </div>
+
+              </div>
+<div class="row">
+
+                <div class="large-offset-7 large-3 medium-12 small-12 columns">
+                    <a href="#" class="small radius button">send</a><br/>
+                  </div>
+</div>
+
+
+            </div>
+      </div>
+    </div>       
+  </body>
+</html>
