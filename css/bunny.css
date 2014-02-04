@@ -282,3 +282,12 @@ span {
 
 }
 
+/* LOGO CONTAINER STYLE*/
+
+#logo-container{
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% ;
+  height: 250px;
+}

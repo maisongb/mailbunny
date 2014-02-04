@@ -3,36 +3,35 @@
   <body>
     <div id="letter-form" class="row letter">
       <div class="large-8 large-centered medium-12 small-12 columns">
-            <div class="panel">  
+          <div class="row">
+            <div class="large-centered large-9 medium-12 small-12 columns">
+                <p>It looks like the email you were trying to verify is already taken!</p>
+            </div>
+          </div>
+            <div class="panel">
               <div class="row">
               <h5>Letter of Interest</h5>
                  <label>From</label>
                   <div class="large-9 medium-12 small-12 columns">
-                        <input type="text" placeholder="mycurrentmail@mail.com" />
+                        <input id="email-from" type="text" placeholder="mycurrentmail@mail.com" />
                   </div>
               </div>
               <div class="row">
                   <label>To</label>
                   <div class="large-9 medium-12 small-12 columns to">
                    <!--  <input type="text" placeholder="username@mail.com" /> -->
-                    <p>username@mail.com</p>
+                    <p id="email-to">username@mail.com</p>
                   
                   </div>
               </div>
-                  <div class="row">
+                  <div id="offer-container" class="row">
                       <label>How much are you up to?</label>
-                              <div class="large-8 medium-12 small-12 columns much">
-                                    
-                                    <input class="easyui-slider" data-options="
-                                          showTip: false,
-                                          rule: [0,'|',50,'|',100],
-                                          tipFormatter: function(value){
-                                            return value+'px';
-                                          },
-                                          onChange: function(value){
-                                            $('#ff').css('font-size', value);
-                                          }">
-                                             
+                              <div id="offer-container-radio" class="large-12 columns">
+                                  <input type="radio" name="offer" value="0" id="offer-0"><label for="offer-0">$0</label>
+                                  <input type="radio" name="offer" value="10" id="offer-10"><label for="offer-10">$10</label>
+                                  <input type="radio" name="offer" value="20" id="offer-20"><label for="offer-20">$20</label>
+                                  <input type="radio" name="offer" value="30" id="offer-30"><label for="offer-30">$30</label>
+                                  <input type="radio" name="offer" value="40" id="offer-40"><label for="offer-40">$40</label>
                               </div>
                     
                   </div>
@@ -69,8 +68,8 @@
               </div>
 <div class="row">
 
-                <div class="large-offset-7 large-3 medium-12 small-12 columns">
-                    <a href="#" class="small radius button">send</a><br/>
+                <div id="send-letter-button" class="large-offset-7 large-3 medium-12 small-12 columns">
+                    <a class="small radius button">send</a><br/>
                   </div>
 </div>
 
